@@ -1,0 +1,28 @@
+/* @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600&display=swap');
+
+h1 {
+    font-family: "Montserrat";
+
+} */
+
+@font-face {
+    font-family: "Centraal";
+    src: url("media/TitilliumWeb-Regular.ttf") format("truetype");
+}
+
+h1 {
+    font-family: "Centraal";
+}
+
+@media screen and (max-width: 500px) {
+
+    h1 {
+        color: blue;
+    }
+}
+@media screen and (max-width: 300px) {
+
+    h1 {
+        color: green;
+    }
+}
